@@ -125,7 +125,7 @@ class Single_Card_Admin
 
 		$value = array();
 
-		$post_types = array('post', 'page', 'offers');
+		$post_types = array('post', 'page');
 
 		foreach ($post_types as $post_type) {
 			$args = array(
